@@ -43,6 +43,10 @@ body {
 .white-mode {
   transition: 150ms;
   background-color: var(--white-color-bg);
+  /* background-image: url("./assets/newbkg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .white-mode .header-title {

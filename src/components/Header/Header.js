@@ -4,9 +4,9 @@ export default function Header() {
   return (
     <section className="header">
       <header>
-        <h1  className="header-title"> Hello.</h1>
+
         <div className="header-title-box">
-          ⚛ React developer based in Ecuador!
+          <h1> ⚛  Hi there !</h1>
         </div>
       </header>
     </section>

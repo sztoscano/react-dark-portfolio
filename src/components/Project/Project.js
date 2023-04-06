@@ -7,7 +7,10 @@ import FigmaIcon from "../../images/figma-icon.svg";
 function Project() {
   return (
     <section id="projects" className="container container-project">
-      <p className="purple-text">
+
+
+
+      {/* <p className="purple-text">
         ‍💻 Open Source -
         <span className="purple-smoke-text">Visita mis ultimos proyectos </span>{" "}
       </p>
@@ -23,27 +26,42 @@ function Project() {
       </div>
       <div className="project-details">
         <img src={ImageTemp} alt="Project React Simple Portfolio" />
-        <div className="details-left">
-          <p className="gray-text">
-            Mira el diseño de este proyecto en
-            <img className="icon-figma" src={FigmaIcon} alt="" />
-            <span className="text-figma">Figma</span>
-          </p>
-          <div className="details-stack">
-            <span className="white-text">Tecnologias</span>
-            <ul className="gray-text">
-              <li>Reactjs</li>
-              <li>CMS (Contenful)</li>
-              <li>Nodejs</li>
-            </ul>
-          </div>
-          <p className="gray-text">
-            Una estrellita en <span className="white-text">Github</span> y mira
-            en vivo la <span className="white-text">Web</span>{" "}
-          </p>
-        </div>
-      </div>
-    </section>
+        <div className="details-left"> */}
+
+
+
+      <p className="gray-text">
+        Mira el diseño de este proyecto en
+        <img className="icon-figma" src={FigmaIcon} alt="" />
+        <span className="text-figma">Figma</span>
+      </p>
+
+
+
+      {/* <div className="details-stack">
+        <span className="white-text">Tecnologias</span>
+        <ul className="gray-text">
+          <li>Reactjs</li>
+          <li>CMS (Contenful)</li>
+          <li>Nodejs</li>
+        </ul>
+      </div> */}
+
+
+
+      {/* <p className="gray-text">
+        Una estrellita en <span className="white-text">Github</span> y mira
+        en vivo la <span className="white-text">Web</span>{" "}
+      </p> */}
+
+
+
+      {/* </div>
+      </div > */}
+
+
+
+    </section >
   );
 }
 

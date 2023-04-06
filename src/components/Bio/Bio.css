@@ -21,3 +21,11 @@
   border: 1px solid var(--purple-color) !important;
   border-radius: 10px !important;
 }
+
+span.purple-smoke-text {
+      text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+  }
+
+  h1.Tech-Stack{
+    margin-bottom: 40px;
+  }
